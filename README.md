@@ -9,46 +9,64 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
-        body { background-color: #f5f5f5; font-family: Arial, sans-serif; }
-        .card { margin-bottom: 15px; }
-        .perfil-img { width: 120px; border-radius: 50%; }
-        h4 { color: #0d6efd; }
+        body { background-color: #f8f9fa; font-family: Arial, sans-serif; padding: 20px; }
+        .perfil { text-align: center; margin-bottom: 20px; }
+        .perfil-img { width: 100px; border-radius: 50%; margin-bottom: 10px; }
+        h2 { color: #0d6efd; margin-bottom: 5px; }
+        p, li { font-size: 0.95rem; }
+        a { color: #0d6efd; text-decoration: none; }
+        .card { padding: 15px; margin-bottom: 15px; border-radius: 8px; }
     </style>
 </head>
 <body>
 
-<div class="container mt-4 mb-4">
-    <div class="text-center mb-3">
-        <img src="foto.jpg" alt="Foto de James" class="perfil-img mb-2">
-        <h3>James Bernardino</h3>
-        <p>Técnico em TI | Aluno do 1º período de Faculdade</p>
-        <p>📍 Jaboatão dos Guararapes, PE | 📧 jamesneto510@gmail.com | 📞 81 99733-8194</p>
+<div class="container">
+
+    <!-- Perfil -->
+    <div class="perfil">
+        <img src="foto.jpg" alt="Foto de James" class="perfil-img">
+        <h2>James Bernardino Da Silva Neto</h2>
+        <p>Técnico em TI | Jaboatão dos Guararapes, PE</p>
+        <p>📧 jamesneto510@gmail.com | 📞 81 99733-8194</p>
     </div>
 
-    <div class="card p-3">
+    <!-- Objetivo -->
+    <div class="card bg-white shadow-sm">
         <h4>Objetivo</h4>
-        <p>Busco oportunidades iniciais na área de TI para aprender na prática e aplicar conhecimentos de programação e suporte técnico.</p>
+        <p>Busco oportunidade inicial na área de TI para aplicar conhecimentos em suporte técnico, desenvolvimento web e automações em Python.</p>
     </div>
 
-    <div class="card p-3">
-        <h4>Formação</h4>
-        <p>Técnico em TI – Mediotec Senac<br>1º período de faculdade (curso em andamento)</p>
-    </div>
-
-    <div class="card p-3">
-        <h4>Habilidades</h4>
+    <!-- Formação e Cursos -->
+    <div class="card bg-white shadow-sm">
+        <h4>Formação & Cursos</h4>
         <ul>
-            <li>HTML & CSS</li>
-            <li>Python (Fundamentos)</li>
-            <li>Excel</li>
-            <li>Suporte técnico básico</li>
+            <li>Técnico em TI – Mediotec Senac</li>
+            <li>Curso de Excel – Fundação Bradesco</li>
+            <li>Curso de Python – Fundação Bradesco</li>
         </ul>
     </div>
 
-    <div class="card p-3">
-        <h4>Projetos / Experiência</h4>
-        <p>Desenvolvimento de pequenos projetos acadêmicos, páginas web simples e automações em Python.</p>
+    <!-- Habilidades -->
+    <div class="card bg-white shadow-sm">
+        <h4>Habilidades</h4>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Python (básico / automações)</li>
+            <li>Excel e Pacote Office</li>
+            <li>Suporte técnico</li>
+            <li>Lógica de programação</li>
+        </ul>
     </div>
+
+    <!-- Contatos -->
+    <div class="card bg-white shadow-sm">
+        <h4>Redes</h4>
+        <p>
+            🔗 GitHub: <a href="https://github.com/seuusuario" target="_blank">github.com/seuusuario</a><br>
+            🔗 LinkedIn: <a href="https://linkedin.com/in/seuusuario" target="_blank">linkedin.com/in/seuusuario</a>
+        </p>
+    </div>
+
 </div>
 
 </body>
