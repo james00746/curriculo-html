@@ -32,10 +32,6 @@
         ul {
             padding-left: 20px;
         }
-        a {
-            color: #0d6efd;
-            text-decoration: none;
-        }
     </style>
 </head>
 <body>
@@ -68,14 +64,6 @@
         <li>Excel / Pacote Office</li>
         <li>Suporte técnico</li>
     </ul>
-</div>
-
-<div class="card">
-    <h3>Redes</h3>
-    <p>
-        🔗 <a href="https://github.com/seuusuario" target="_blank">GitHub</a><br>
-        🔗 <a href="https://linkedin.com/in/seuusuario" target="_blank">LinkedIn</a>
-    </p>
 </div>
 
 </body>
